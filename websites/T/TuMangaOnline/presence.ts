@@ -11,7 +11,7 @@ presence.on("UpdateData", async () => {
     largeImageKey: "tmo"
   };
 
-  if (document.location.hostname == "tmofans.com") {
+  if (document.location.hostname == "lectormo.com") {
     if (document.location.pathname == "/") {
       presenceData.startTimestamp = browsingStamp;
       presenceData.details = "Browsing...";
